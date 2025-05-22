@@ -1,0 +1,42 @@
+.items{
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+img{
+    width: 45%;
+    cursor: pointer;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    width: 94%;
+    padding: 0.5rem;
+}
+
+.item p{
+    font-weight: 500;
+    font-size: small;
+}
+.item h3{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.item-content{
+display: flex;
+flex-direction: column;
+row-gap: 1rem;
+justify-content: center;
+align-items: center;
+}

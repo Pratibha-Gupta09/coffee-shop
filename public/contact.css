@@ -1,0 +1,71 @@
+.contact-1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    padding: 1rem;
+}
+.contact-1 p{
+    font-size: small;
+}
+
+.part-1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.part-2{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+input{
+    height: 2rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+::placeholder{
+    color: #fff;
+}
+
+
+#btn{
+    width: 20%;
+    height: 1.5rem;
+    border: 1px solid #fff;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    }
+    #btn:hover{
+        background-color: #fff;
+        color: #a52a2a;
+        transition: 0.5s ease-in;
+    }
+    .part-3 ul{
+        width: 5%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    .part-3 a{
+        width: 1.5rem;
+        border: 1px solid #fff;
+        border-radius: 50%;
+    }
+    
+    .part-3 a i{
+        font-size: 0.8rem;
+    }
+
